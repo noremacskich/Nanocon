@@ -1,17 +1,36 @@
 <?php
-	/* Page Header
-	 * 	Description Spits out the html code needed for the head tag
-	 * 		and spits out the top body tag
-	 * 	@param	Title | String | Optional
-	 * 		Description Changes the title of the document
-	 * 		Default 'Title'
+	
+	/* @function newScript($Location)
+	 * 		^This will spit out the html required for a simple script file
+	 * 		 such as a jquery library.
+	 * 
+	 * @param $Location | File Path
+	 * 		^This is the path to the script file to be included
+	 * 
+	 * @echo
+	 * 		^<script src="' . $Location . '"></script>
+	 * 
+	 * @returns
+	 * 		^Nothing
 	 */
-	function pageHeader($Title='Title'){
-		echo '	<head>';
-		echo '		<title>' . $Title . '</title>';
-		echo '		<script src="libs/java/jquery-1.10.2.min.js"></script>';
-		echo '		<link rel="stylesheet" href="css/myStyleSheet.css"/>';
-		echo '	</head>';
+	function newScript($Location){
+		echo '<script src="' . $Location . '"></script>';
 	}
-
+	
+	/* @function newCss($Location)
+	 * 		^This will spit out the html required to link a css file to the page
+	 * 
+	 * @param $Location | File Path
+	 * 		^This is the path to the css file to be included
+	 * 
+	 * @echo
+	 * 		^<link rel="stylesheet" href="' . $Location . '"/>
+	 * 
+	 * @returns
+	 * 		^Nothing
+	 */
+	function newCss($Location){
+		echo '<link rel="stylesheet" href="' . $Location . '"/>';
+	}
+	
 ?>

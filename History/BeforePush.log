@@ -1,24 +1,17 @@
+2:56pm -----------------
 
 Created:
-1	htmlchunks.php
-2	htmlchunks.php : pageHeader($Title)
-3	/libs/
-4	/libs/java/
-5	/libs/java/jquery-1.10.2.min.js
-6	/libs/php/
+1	htmlchunks.php : newScript($Location)
+2	htmlchunks.php : nweCss($Location)
+3	css/core.css
 
 Reasons:
-1	This will hold mostly static chunks of html, such as the header and footer.
-2	This will be where we will define the header for all the pages on our website.
-	Since this will be a relatively simple website, shouldn't need to have different
-	css or javascript libraries for individual pages.
-3	The libs folder will be where we store all php and javascript libraries 
-4	The java folder will be where we store all javascript related libraries
-5	This is the latest jquery library
-6	The php folder will be where we store all php related libraries
+1	This will simplify the creation of new libraries.
+2	This will simplify the linking of css files to the page.
+3	This is the core css file that will be applied to all pages
 
-Renamed:
-1	header.php -> default.php
+Deleted:
+1	htmlchunks.php : pageHeader($Title='Title')
 
 Reasons:
-1	all webpages need a default.php, the orginal intent of header.php has been moved to htmlchunks.php
+1	I've decided that this should be done manually on the website.
