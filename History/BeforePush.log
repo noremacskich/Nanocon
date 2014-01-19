@@ -1,17 +1,13 @@
-2:56pm -----------------
+5:33 pm ----------------
 
 Created:
-1	htmlchunks.php : newScript($Location)
-2	htmlchunks.php : nweCss($Location)
-3	css/core.css
+1	readme.txt
 
 Reasons:
-1	This will simplify the creation of new libraries.
-2	This will simplify the linking of css files to the page.
-3	This is the core css file that will be applied to all pages
+1	This will serve as the goto place for basic questions about this website.
 
-Deleted:
-1	htmlchunks.php : pageHeader($Title='Title')
+Renamed:
+1	default.php -> index.php
 
 Reasons:
-1	I've decided that this should be done manually on the website.
+1	index.php is the default directory.

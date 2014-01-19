@@ -24,3 +24,22 @@ Renamed:
 
 Reasons:
 1	all webpages need a default.php, the orginal intent of header.php has been moved to htmlchunks.php
+
+2:56pm -----------------
+
+Created:
+1	htmlchunks.php : newScript($Location)
+2	htmlchunks.php : nweCss($Location)
+3	css/core.css
+
+Reasons:
+1	This will simplify the creation of new libraries.
+2	This will simplify the linking of css files to the page.
+3	This is the core css file that will be applied to all pages
+
+Deleted:
+1	htmlchunks.php : pageHeader($Title='Title')
+
+Reasons:
+1	I've decided that this should be done manually on the website.
+

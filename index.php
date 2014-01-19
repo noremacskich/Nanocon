@@ -8,6 +8,7 @@
 				newCss('/css/core.css');
 	echo '	</head>';
 	echo '	<body>';
+	echo '		<h1>Nanocon Homepage</h1>';
 	echo '	</body>';
 	echo '</html>';
 ?>
