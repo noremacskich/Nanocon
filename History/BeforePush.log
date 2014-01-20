@@ -1,13 +1,9 @@
-5:33 pm ----------------
-
 Created:
-1	readme.txt
+1	DocumentationStyle.txt
 
 Reasons:
-1	This will serve as the goto place for basic questions about this website.
+1	This is where we will store how we will document our code.
 
-Renamed:
-1	default.php -> index.php
-
-Reasons:
-1	index.php is the default directory.
+Notes:
+	Updated the readme so that it looks better when shown on github.
+	Choose to move the Documentation style into a seperate file.

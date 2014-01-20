@@ -43,3 +43,17 @@ Deleted:
 Reasons:
 1	I've decided that this should be done manually on the website.
 
+
+5:33 pm ----------------
+
+Created:
+1	readme.txt
+
+Reasons:
+1	This will serve as the goto place for basic questions about this website.
+
+Renamed:
+1	default.php -> index.php
+
+Reasons:
+1	index.php is the default directory.
