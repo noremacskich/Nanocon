@@ -5,7 +5,7 @@ Setup
 	
     Follow thier instructions on creating a new account.
 	
-  Download and install Aptana Studio 3 (My Preferred Editor)
+  Download and install Aptana Studio 3
   http://aptana.org/
   
   Download and Install EasyPHP DevServer
@@ -20,19 +20,18 @@ Setup
           repository from github
           click Save, and it should lead you back to the administration page.
         Once again look in the "LOCAL FILES" section and you should see a new 
-        entry for "nanocon", clickn on it, and it should lead you to the 
-        nanocon main page.
-        There you have it, a test environment for the Nanocon website.
+        entry for "nanocon", click on it, and it should lead you to the nanocon
+        main page.
+      There you have it, a test environment for the Nanocon website.
 
 Overview
 
   History/BeforePush.log
     This is where you document everything that you have done until you commit.  
     It should follow the Documentation Style provided in the DocumentationStyle
-    text file.  
-    Your commit comment should be identical to what is in this file.  Be sure 
-    to save this file before you commit.
-    After you commit, you can erase the contents of this file.  
+    text file.  Your commit comment should be identical to what is in this file.  
+    Be sure to save this file before you commit.  After you commit, you can erase 
+    the contents of this file.  
 		
   History/History.log
     This is where you can keep a local copy of what you have done overall.  This 
