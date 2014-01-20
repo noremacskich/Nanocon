@@ -3,7 +3,7 @@ Setup
   Download and install Git (Cross Platform)
   https://help.github.com/articles/set-up-git
 	
-    Follow thier instructions on creating a new account.
+    Follow their instructions on creating a new account.
 	
   Download and install Aptana Studio 3
   http://aptana.org/
@@ -35,4 +35,4 @@ Overview
 		
   History/History.log
     This is where you can keep a local copy of what you have done overall.  This 
-    shouldn't be commited to the repository
+    shouldn't be committed to the repository
