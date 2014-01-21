@@ -1,16 +1,19 @@
-Created:
-1	navigation.php
-2	navigation Array
-
-Reasons:
-1	This will house the functions for the navigation menu.
-2	This will be the link structure for the navigation menu. 
-	Need to create functions to parse it.
-
 Modified:
 1	index.php
-2	readme.txt
+2	navigation.php
+3	readme.txt
 
 Reasons:
-1	I removed the echo's, makes the html show up better.
-2	Found another typo in readme
+1	Added jquery Mobile to index.php, playing around with it to see what we can do with it
+2	Removed the array, going to use the jQuery Mobile navigation bar.  See readme for details on Nav Bars.
+3	Added a jquery Mobile basics link, a great read on it.
+
+Created:
+1	navigation.php : newPageLink($href, $label)
+2	navigation.php : createNave()
+
+Reasons:
+1	This function will quickly create a new list item
+2	This will echo all of the navigation html
+
+
