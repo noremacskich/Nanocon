@@ -1,0 +1,14 @@
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 30em) {
+	/* #menu is the original menu */
+	#menu2 {
+		display:none;
+	}
+
+	.slicknav_menu {
+		display:block;
+	}
+}

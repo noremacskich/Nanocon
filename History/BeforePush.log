@@ -1,19 +1,29 @@
+Added:
+1	/libs/java/slick-nav/
+2		^jquery.slicknav.js
+3		^jquery.slicknav.min.js
+4		^MIT-LICENSE.txt
+5		^README.md
+6		^slicknav.css
+
+Reasons:
+1-6	slick-nav looks like it will make navigation menus easy
+
 Modified:
-1	index.php
-2	navigation.php
-3	readme.txt
+1	navigation.php : createNav()
+2	index.php
+
+Reason:
+1	Using the menu template from slicknav.com to test out slick-nav
+2	Moved the core.css to be the last loaded so that it overides everything else.
+
+Deleted:
+1	/History/History.log
 
 Reasons:
-1	Added jquery Mobile to index.php, playing around with it to see what we can do with it
-2	Removed the array, going to use the jQuery Mobile navigation bar.  See readme for details on Nav Bars.
-3	Added a jquery Mobile basics link, a great read on it.
+1	Decided not to use it, will just keep track of beforePush.log
 
-Created:
-1	navigation.php : newPageLink($href, $label)
-2	navigation.php : createNave()
-
-Reasons:
-1	This function will quickly create a new list item
-2	This will echo all of the navigation html
+Thoughts:
+1	Nav Menu needs to have a style applied to it for tablet display and desktop display.
 
 
