@@ -1,14 +1,15 @@
-.slicknav_menu {
-	display:none;
+/* The style for the mascot image */
+#mascot {
+	outline:solid black 2px;
+	padding: 1em;
+	width: 25%;
+	max-width: 300px;
+	height: 25%;
 }
 
-@media screen and (max-width: 30em) {
-	/* #menu is the original menu */
-	#menu2 {
-		display:none;
-	}
-
-	.slicknav_menu {
-		display:block;
-	}
+#nav{
+	float: left;
+}
+#heading{
+	clear:left;
 }

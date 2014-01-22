@@ -26,9 +26,9 @@ Setup
 
 Overview
 	Reference Articles:
-		http://mobile.smashingmagazine.com/2013/03/31/getting-started-jquery-mobile/
-		^ This is a great intro to jQuery Mobile, and should be read, to understand
-		this website
+      http://mobile.smashingmagazine.com/2013/03/31/getting-started-jquery-mobile/
+      ^ This is a great intro to jQuery Mobile, and should be read, to understand
+        this website
 		
 	File Info:
 	  History/BeforePush.log

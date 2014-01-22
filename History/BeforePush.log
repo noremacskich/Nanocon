@@ -1,29 +1,35 @@
-Added:
+Modified:
+1	readme.txt
+2	index.php
+3	navigation.php
+
+Reasons:
+1	changed the tabs to spaces, this way it will fit on the github site.
+2	Added paragraphs to the main page to get some text on there.  Added a 
+	mascot image holder.
+3	Went and removed the echos from here as well.  Have not yet decided on 
+	navigation style.  
+
+Created:
+1	/css/desktop.css
+2	/css/phone.css
+3	/css/tablet.css
+
+Reasons:
+1	The desktop css will hold all media queries related to desktops.
+2	The phone css will hold all media queries related to phones.
+3	The tablet css will hold all media queries related to tablets.
+
+Deleted:
 1	/libs/java/slick-nav/
 2		^jquery.slicknav.js
 3		^jquery.slicknav.min.js
 4		^MIT-LICENSE.txt
 5		^README.md
 6		^slicknav.css
+7	navigation.php : createNav()
 
 Reasons:
-1-6	slick-nav looks like it will make navigation menus easy
-
-Modified:
-1	navigation.php : createNav()
-2	index.php
-
-Reason:
-1	Using the menu template from slicknav.com to test out slick-nav
-2	Moved the core.css to be the last loaded so that it overides everything else.
-
-Deleted:
-1	/History/History.log
-
-Reasons:
-1	Decided not to use it, will just keep track of beforePush.log
-
-Thoughts:
-1	Nav Menu needs to have a style applied to it for tablet display and desktop display.
-
+1-6	I will be using a combination of accordian menus and list views from the jQuery Mobile
+7	I will be using the include function to directly insert navigation.php into the page
 
