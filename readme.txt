@@ -4,6 +4,8 @@ Setup
   https://help.github.com/articles/set-up-git
 	
     Follow their instructions on creating a new account.
+    
+    https://github.com/noremacskich/Nanocon
 	
   Download and install Aptana Studio 3
   http://aptana.org/

@@ -9,23 +9,30 @@
 	 * @param $label | String
 	 * 			^	This is the string that you want to show up in the menu.
 	 *
+	 * @param $attributes | String | Optional
+	 * 			^	This will allow additional attributes to be added to 
+	 * 				this page link.
+	 * 			^	The default is a empty string
 	 */
-	function newPageLink($href, $label){
-		echo '		<li><a href="' . $href . '">' . $label . '</a></li>';
+	function newPageLink($href, $label, $attributes=''){
+		echo '		<li><a href="' . $href . '" ' . $attributes . ' >' . $label . '</a></li>';
 	}
 
 ?>
-
+<!-- This is the new navigation Bar.  When the display is small, we will 
+	hide it, but when showing on monitor, it should show.  It will need 
+	to be put after the footer in order to work. -->
+<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="nav-panel">
 	<div data-role="collapsible-set">
-		<div data-role="collapsible" data-iconpos="right" data-theme="b">
-			<h1>Nanocon 2014</h1>
 			<ul data-role="listview">
 			<?php
-			
-				newPageLink('http://127.0.0.1/nanocon/index.php','Home');
+				newPageLink('#',"Close",'data-rel="close" data-icon="delete" data-inset="true" data-split-icon="delete"');
+				newPageLink('http://127.0.0.1/nanocon/events.php','Events');
 				newPageLink('#','Option2');
 				newPageLink('#','Option3');
 			?>
 			</ul>
-		</div>
+
 	</div>
+</div><!-- /panel -->
+

@@ -30,17 +30,11 @@
 		</head>
 		<body>
 			<div data-role="page">
-				<header data-role="header">
-					<div id="heading" class="ui-grid-a">
-						<div id="mascot" class="ui-block-a">
-							&nbsp;						
-						</div>
-						<div id="nav" class="ui-block-b">
-							<?php include 'navigation.php';	?>
-						</div>
-					</div>
+				<header data-role="header" data-position="fixed" role="banner">
+					<h1>Nanocon - 2014</h1>
+					<a href="#nav-panel" data-icon="carat-l" data-iconpos="notext" class="ui-btn-right">Menu</a>
 				</header>
-				<div data-role="content">
+				<div data-role="content" id="">
 					<p>Welcome to the Nanocon 2014 Website!</p>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -91,9 +85,16 @@
 						 per conubia nostra, per inceptos himenaeos. 
 					 </p>
 				</div>
+				<div data-role="page" id="events">
+					
+					
+				</div>
 				<footer data-role="footer">
 					<p>Nanocon - 2014</p>
 				</footer>
+				<?php
+					include 'navigation.php';
+				?>
 			</div>
 		</body>
 	</html>

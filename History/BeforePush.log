@@ -1,35 +1,29 @@
 Modified:
-1	readme.txt
+1	navigation.php
 2	index.php
-3	navigation.php
+3	navigation.php : newPageLink($href, $label, $attributes='')
+4	readme.txt
+5	/css/core.css
 
 Reasons:
-1	changed the tabs to spaces, this way it will fit on the github site.
-2	Added paragraphs to the main page to get some text on there.  Added a 
-	mascot image holder.
-3	Went and removed the echos from here as well.  Have not yet decided on 
-	navigation style.  
+1	Finally figured out how I want the navigation to work out, will be
+	using a panel that disappears on smaller screens, but is shown
+	on larger screens.
+2	Updated to compensate for new navigation style
+3	Added the ability to specify additional attributes to the html
+4	Added the url to the Nanocon github repository.
+5	The Side margins on the title were a little to wide, so I shortened
+	them up a bit.
 
 Created:
-1	/css/desktop.css
-2	/css/phone.css
-3	/css/tablet.css
+1	events.php
 
 Reasons:
-1	The desktop css will hold all media queries related to desktops.
-2	The phone css will hold all media queries related to phones.
-3	The tablet css will hold all media queries related to tablets.
+1	This file will hold all functions related to events.  For now it 
+	will simply house the event form.
 
-Deleted:
-1	/libs/java/slick-nav/
-2		^jquery.slicknav.js
-3		^jquery.slicknav.min.js
-4		^MIT-LICENSE.txt
-5		^README.md
-6		^slicknav.css
-7	navigation.php : createNav()
 
-Reasons:
-1-6	I will be using a combination of accordian menus and list views from the jQuery Mobile
-7	I will be using the include function to directly insert navigation.php into the page
-
+Notes:
+1	There will be 2 user classes, admins and npc's.
+2	The navigation is being inserted after the footer. May change that
+	at a later date.
