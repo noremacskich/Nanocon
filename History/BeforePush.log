@@ -1,3 +1,5 @@
+Choose Navigation Style; Created Add Event Page
+
 Modified:
 1	navigation.php
 2	index.php
@@ -21,7 +23,6 @@ Created:
 Reasons:
 1	This file will hold all functions related to events.  For now it 
 	will simply house the event form.
-
 
 Notes:
 1	There will be 2 user classes, admins and npc's.
