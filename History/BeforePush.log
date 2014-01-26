@@ -1,30 +1,21 @@
-Choose Navigation Style; Created Add Event Page
+Finished Create Event Page
 
 Modified:
-1	navigation.php
-2	index.php
-3	navigation.php : newPageLink($href, $label, $attributes='')
-4	readme.txt
-5	/css/core.css
+1	events.php : newText($id, $Label, $attributes='')
+2	events.php
 
-Reasons:
-1	Finally figured out how I want the navigation to work out, will be
-	using a panel that disappears on smaller screens, but is shown
-	on larger screens.
-2	Updated to compensate for new navigation style
-3	Added the ability to specify additional attributes to the html
-4	Added the url to the Nanocon github repository.
-5	The Side margins on the title were a little to wide, so I shortened
-	them up a bit.
+Reason:
+1	added a fieldset around the text element, will make the label either
+	float on top if the screen is small, or float to the side when it is 
+	bigger.
+2	Updated all of the function descriptions
+
 
 Created:
-1	events.php
+1	events.php : newDropDown($id, $Label, $DropdownList)
+2	events.php : newTextArea($id, $Label, $innerText='')
 
 Reasons:
-1	This file will hold all functions related to events.  For now it 
-	will simply house the event form.
-
-Notes:
-1	There will be 2 user classes, admins and npc's.
-2	The navigation is being inserted after the footer. May change that
-	at a later date.
+1	This function will create a new select list, will need to supply
+	it with an array containing the value and label for each option.
+2	This will create a text box with multiple lines.

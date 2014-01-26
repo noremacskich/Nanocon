@@ -15,7 +15,11 @@
 	 * 			^	The default is a empty string
 	 */
 	function newPageLink($href, $label, $attributes=''){
-		echo '		<li><a href="' . $href . '" ' . $attributes . ' >' . $label . '</a></li>';
+		// If you are not currently on this page, show it,
+		// otherwise skip it.
+		//if( strpos($str1,$str2) !== false)
+			echo '		<li><a href="' . $href . '" ' . $attributes . ' >' . $label . '</a></li>';
+		//}
 	}
 
 ?>
@@ -26,10 +30,11 @@
 	<div data-role="collapsible-set">
 			<ul data-role="listview">
 			<?php
-				newPageLink('#',"Close",'data-rel="close" data-icon="delete" data-inset="true" data-split-icon="delete"');
-				newPageLink('http://127.0.0.1/nanocon/events.php','Events');
+				newPageLink('./index.php', 'Home');
+				newPageLink('./events.php', 'Events');
 				newPageLink('#','Option2');
 				newPageLink('#','Option3');
+				newPageLink('#',"Close",'data-rel="close"');
 			?>
 			</ul>
 
