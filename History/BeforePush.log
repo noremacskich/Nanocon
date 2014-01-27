@@ -1,10 +1,7 @@
-Updated all Documentation Styling.
+Forgot to update a few style functions
 
 Modified:
-1	htmlchunks.php
-2	events.php
-3	navigation.php
-4	DocumentationStyle.txt
+1	events.php : Button($text='Button', $link='#', $Icon='')
 
 Reason:
-1-4	Updated all of the function descriptions
+1	Forgot to update this function documentation

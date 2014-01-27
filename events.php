@@ -77,7 +77,7 @@
 		
 	}
 	
-	/** @function Button
+	/** @function Button($text='Button', $link='#', $Icon='')
 	 * 	^	This will create a new button
 	 * 
 	 * @requires JqueryUI
@@ -94,7 +94,8 @@
 	 * 	^	If you want an Icon, you put it here
 	 * 	D	""
 	 * 
-	 * @Note The link needs http:// in order to function correctly
+	 * @Note NoremacSkich
+	 * 	^	The link needs http:// in order to function correctly
 	 * 
 	 */
     function Button($text='Button', $link='#', $Icon=''){
