@@ -109,10 +109,12 @@ Official Function Comments
  *			isn't defined)
  *
  * @note github username
- * 	^	What did you want to note about this file?
+ * 	^	What did you want to note about this file? Seperate ideas should be in
+  * 	^	seperate notes.
  *
  * @todo github username
- *	^	What still needs to be done?
+ *	^	What still needs to be done?  Each @todo should deal with a specific
+ *	^	problem.
  * 
  */
 

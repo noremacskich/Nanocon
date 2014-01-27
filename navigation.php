@@ -11,15 +11,16 @@
 	 *
 	 * @param $attributes | String | Optional
 	 * 	^	This will allow additional attributes to be added to 
-	 * 		this page link.
-	 * 	D	The default is a empty string
+	 * 	^	this page link.
+	 * 	D	''
+	 * 
+	 * @todo NoremacSkich
+	 * 	^	Need to prevent the link to the current page from being shown.
+	 * 	^	Should probably use an if statement.
 	 */
 	function newPageLink($href, $label, $attributes=''){
-		// If you are not currently on this page, show it,
-		// otherwise skip it.
-		//if( strpos($str1,$str2) !== false)
-			echo '		<li><a href="' . $href . '" ' . $attributes . ' >' . $label . '</a></li>';
-		//}
+		echo '		<li><a href="' . $href . '" ' . $attributes . ' >' . $label . '</a></li>';
+
 	}
 
 ?>

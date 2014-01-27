@@ -1,7 +1,13 @@
-Forgot to update a few style functions
+Cleaned up code, Fixed few more function documentations.
 
 Modified:
-1	events.php : Button($text='Button', $link='#', $Icon='')
+1	events.php
+2	htmlchunks.php
+3	index.php
+4	navigation.php
+5	DocumentationStyle.txt
 
 Reason:
-1	Forgot to update this function documentation
+1-4	I cleaned up some of the commented out stuff, such as the slicknav references
+	I also should be up to date according to the DocumentationStyle.txt.
+5	Updated the way one should use @todo and @note.
