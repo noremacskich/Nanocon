@@ -12,9 +12,9 @@ Created:
 4	path/to/file.ext : regex
 
 Reasons:
-1	Description of what the file is supposed to have
+1	Description of what the file is supposed to have.
 2	what should go into the the folder?
-3	Description of what the function does
+3	Description of what the function does.
 4	Explain what the regex primarily does.  Show what it does 
 	in the info section
 
@@ -43,8 +43,8 @@ Moved:
 
 
 Reasons:
-1	
-2	
+1	Why did you move the file?  Does it need to be here instead?
+2	Why did you move the folder?  Does this spot make more sense?
 3	Did moving the function to the file make more sense?  Why?
 4-7	Do these files need to stay together?  Do they need . . .	
 
@@ -83,56 +83,39 @@ Official Function Comments
 ------------------------
 ------------------------
 
-/* @function copy the function call and paste here
- * 	^What will this function do?
+/**@function name($var, $var1='default')
+ * 	^	Short description of what the function does
  *
- * @requires Does this function rely on any libraries or packages?
+ * @requires (Jquery, JqueryUI, NodeJS, etc.)
  *
- * @usedFunctions list out all the functions that are used. This is optional
- *
- * @param Param Name | Variable Type | Optional
- * 		^	Describe what the parameter is for.  If optional isn't stated, then it is
- *			assumed that the parameter is required.  If it is stated, you must list 
- *			what the default value or behaviour is below.
- * 		^	This is where you state the default value or behaviour if the optional 
- *			tag is stated.  If it is not stated, then you omit this tag.
- *
- * @Return State what is returned, or what is done (eg echo'd something to the client 
- *			etc.) This is optional. If it returns a variable, then use the same 
- *			format as the parameters.
- *			
- * @Todo <Github Name> What still needs to be done with this function. This is 
- *						optional.
+ * @param $var | Type (| Optional)
+ * 	^	What does this variable represent?
+ *	^	If multiple lines, use same indicator
+ * 	(D	"This is the default value, if it's a string, use double quotes.")
  * 
- * @Note <Github Name> Any else that should be stated?
+ * @param $arrayname | Array | [$array, $elements]
+ * 	^	Description of the array
+ *
+ * 	@element $array | Var Type (|optional)
+ *		^	Description of what this element of the array represents, or will
+ *		^	do in terms of this function.
+ *		(D	This is the default value for this position in the array, if it
+ *			isn't defined)
+ *
+ * 	@element $elements | Var Type (|optional)
+ *		^	Description of what this element of the array represents, or will
+ *		^	do in terms of this function.
+ *		(D	This is the default value for this position in the array, if it
+ *			isn't defined)
+ *
+ * @note github username
+ * 	^	What did you want to note about this file?
+ *
+ * @todo github username
+ *	^	What still needs to be done?
+ * 
  */
 
-
-/*
- * @function Button($text='Button', $link='#', $Icon='')
- * 	^This will spit out the html for a new button for jqueryUI.
- *
- * @requires JqueryUI
- *
- * @param $txt | String
- * 		^This is what the button will say
- * 		^Default: "Button"
- * 
- * @param $link | HyperLink
- * 		^This is where the button will send you
- * 		^Default: "#"
- * 
- * @param $Icon | File
- * 		^If you want an Icon, you put it here
- * 		^Default: ""
- * 
- * @Note The link needs http:// in order to function correctly
- *
- */
-function Button($text='Button', $link='#', $Icon=''){
-	// Now spit it out to the website
-	echo '<a href="' . $link . '" data-role="button" '. $Icon . '>' . $text . '</a>';
-}
 
 ------------------------
 ------------------------

@@ -1,21 +1,10 @@
-Finished Create Event Page
+Updated all Documentation Styling.
 
 Modified:
-1	events.php : newText($id, $Label, $attributes='')
+1	htmlchunks.php
 2	events.php
+3	navigation.php
+4	DocumentationStyle.txt
 
 Reason:
-1	added a fieldset around the text element, will make the label either
-	float on top if the screen is small, or float to the side when it is 
-	bigger.
-2	Updated all of the function descriptions
-
-
-Created:
-1	events.php : newDropDown($id, $Label, $DropdownList)
-2	events.php : newTextArea($id, $Label, $innerText='')
-
-Reasons:
-1	This function will create a new select list, will need to supply
-	it with an array containing the value and label for each option.
-2	This will create a text box with multiple lines.
+1-4	Updated all of the function descriptions

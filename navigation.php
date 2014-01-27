@@ -1,18 +1,18 @@
 <?php
 
-	/* @function newPage($href, $label)
-	 * 		^This function will quickly create a new list item
+	/** @function newPage($href, $label)
+	 * 	^	This function will quickly create a new list item
 	 * 
 	 * @param $href | Path
-	 * 			^	This is the path to the page you are trying to open
+	 * 	^	This is the path to the page you are trying to open
 	 * 
 	 * @param $label | String
-	 * 			^	This is the string that you want to show up in the menu.
+	 * 	^	This is the string that you want to show up in the menu.
 	 *
 	 * @param $attributes | String | Optional
-	 * 			^	This will allow additional attributes to be added to 
-	 * 				this page link.
-	 * 			^	The default is a empty string
+	 * 	^	This will allow additional attributes to be added to 
+	 * 		this page link.
+	 * 	D	The default is a empty string
 	 */
 	function newPageLink($href, $label, $attributes=''){
 		// If you are not currently on this page, show it,
