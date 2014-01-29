@@ -91,6 +91,8 @@ Official Function Comments
  * @param $var | Type (| Optional)
  * 	^	What does this variable represent?
  *	^	If multiple lines, use same indicator
+ *	F	This is the format of the string you expect for the function.
+ *	E	This will be an example of that format
  * 	(D	"This is the default value, if it's a string, use double quotes.")
  * 
  * @param $arrayname | Array | [$array, $elements]

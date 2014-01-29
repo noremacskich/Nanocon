@@ -1,13 +1,33 @@
-Cleaned up code, Fixed few more function documentations.
+Created VIP Page, added images.
+
+Created:
+1	vip.php
+2	vip.php : newvip()
+3	imgs
+4	imgs/vip
+5	imgs/vip/1.jpg
+6	imgs/vip/2.jpg
+7	imgs/vip/3.jpg
+8	imgs/vip/4.png
+
+Reasons:
+1	This will hold all information regarding our guest speakers.
+2	This will create a new VIP tile
+3	This is where all the images go
+4	This is where all VIP portriats go
+5-8	Since I have to play around with pictures, why not use my cats from home?
 
 Modified:
-1	events.php
-2	htmlchunks.php
-3	index.php
-4	navigation.php
-5	DocumentationStyle.txt
+1	core.css
+2	DocumentationStyle.txt
+3	navigation.php
 
-Reason:
-1-4	I cleaned up some of the commented out stuff, such as the slicknav references
-	I also should be up to date according to the DocumentationStyle.txt.
-5	Updated the way one should use @todo and @note.
+Reasons:
+1	To give the vip page styling.
+2	Updated the function style, now includes how to handle formatted strings,
+	more specifically the F (format) and E (example) tags
+3	Added the VIP page to the list.  It replace "Option2"
+
+Notes:
+	I should have disabled the history refactorings for this project. 
+	Need to find a way to reduce image size based on connection type.

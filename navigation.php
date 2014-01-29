@@ -33,7 +33,7 @@
 			<?php
 				newPageLink('./index.php', 'Home');
 				newPageLink('./events.php', 'Events');
-				newPageLink('#','Option2');
+				newPageLink('./vip.php','Guest Speakers');
 				newPageLink('#','Option3');
 				newPageLink('#',"Close",'data-rel="close"');
 			?>
