@@ -1,4 +1,5 @@
 <?php
+
 /**@function newvip()
  * 	^	This will create a VIP tile for the vip page
  * 
@@ -8,16 +9,15 @@
  * @param $presID | Integer
  * 	^	This presID will get all information regard the Presentation the 
  * 	^	VIP is giving.
- * @todo NoremacSkich
- * 	^	Need to cut down on the number of parameters for this function.
  * 
  * @todo Noremacskich
  * 	^	Need to allow multiple Presentations for one VIP
  * 
  */
+ 
 function newvip($vipID, $presID){
 	
-	// The arrays come from this file
+	// The vipInfo and presInfo arrays come from this file
 	include 'database.php';
 	
 	echo '<div class="vip ui-corner-all custom-corners">';
@@ -46,6 +46,7 @@ function newvip($vipID, $presID){
 
 
 ?>
+
 <?php
 	// require 'path/to/file'; is very similar to an include in C/C++
 	require '/htmlchunks.php'; // This will hold basic functions that will create simple html
@@ -80,6 +81,8 @@ function newvip($vipID, $presID){
 				</header>
 				<div data-role="content" id="">
 				<?php
+					// Create a bunch of random VIP's with various
+					// attributes for testing purposes.
 					$i = rand(2,20);
 					while($i!=0){
 						newvip(rand(1,100), rand(1,100));

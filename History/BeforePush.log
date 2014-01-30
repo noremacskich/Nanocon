@@ -1,12 +1,13 @@
-Added Database for VIP - Quick Fix
+Added Database for VIP - Polished Version
 
 Modified:
-1	newvip( . . . )
+1	newvip( . . . ) -> newvip($vipID, $presID)
 2	readme.txt
 
 Reasons:
-1	To reduce the number of parameters
-2	Updated it to include setting up the database.
+1	Reduced the number of parameters from 7 to 2.
+2	Updated it to include setting up the database.  Need to verify that I 
+	included all the steps needed to setup the database.
 
 Created:
 1	Database for VIP
