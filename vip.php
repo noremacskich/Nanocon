@@ -18,7 +18,7 @@
 function newvip($vipID, $presID){
 	
 	// The arrays come from this file
-	include database.php;
+	include 'database.php';
 	
 	echo '<div class="vip ui-corner-all custom-corners">';
 	echo '	<h1 class="ui-bar ui-bar-a">' . $vipInfo["name"] . '</h1>';
