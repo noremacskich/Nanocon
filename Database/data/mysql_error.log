@@ -1,0 +1,76 @@
+2014-01-19 16:04:33 16120 [Note] Plugin 'FEDERATED' is disabled.
+2014-01-19 16:04:33 16120 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-01-19 16:04:33 16120 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-01-19 16:04:34 16120 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-01-19 16:04:34 16120 [Note] InnoDB: Not using CPU crc32 instructions
+2014-01-19 16:04:34 16120 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2014-01-19 16:04:34 16120 [Note] InnoDB: Completed initialization of buffer pool
+2014-01-19 16:04:34 16120 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-01-19 16:04:34 16120 [Note] InnoDB: The log sequence numbers 1625977 and 1625977 in ibdata files do not match the log sequence number 1626134 in the ib_logfiles!
+2014-01-19 16:04:34 16120 [Note] InnoDB: Database was not shutdown normally!
+2014-01-19 16:04:34 16120 [Note] InnoDB: Starting crash recovery.
+2014-01-19 16:04:34 16120 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-01-19 16:04:34 16120 [Note] InnoDB: Restoring possible half-written data pages 
+2014-01-19 16:04:34 16120 [Note] InnoDB: from the doublewrite buffer...
+2014-01-19 16:04:34 16120 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-01-19 16:04:34 16120 [Note] InnoDB: Waiting for purge to start
+2014-01-19 16:04:34 16120 [Note] InnoDB: 5.6.15 started; log sequence number 1626134
+2014-01-19 16:04:34 16120 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: ae5a6bea-8155-11e3-8e3b-002637bd3942.
+2014-01-19 16:04:34 16120 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2014-01-19 16:04:34 16120 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2014-01-19 16:04:34 16120 [Note] Server socket created on IP: '127.0.0.1'.
+2014-01-19 16:04:35 16120 [Note] Event Scheduler: Loaded 0 events
+2014-01-19 16:04:35 16120 [Note] C:\PROGRA~2\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
+Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-01-21 15:48:58 6928 [Note] Plugin 'FEDERATED' is disabled.
+2014-01-21 15:48:59 6928 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-01-21 15:48:59 6928 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-01-21 15:48:59 6928 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-01-21 15:48:59 6928 [Note] InnoDB: Not using CPU crc32 instructions
+2014-01-21 15:48:59 6928 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2014-01-21 15:48:59 6928 [Note] InnoDB: Completed initialization of buffer pool
+2014-01-21 15:48:59 6928 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-01-21 15:48:59 6928 [Note] InnoDB: The log sequence numbers 1625977 and 1625977 in ibdata files do not match the log sequence number 1626144 in the ib_logfiles!
+2014-01-21 15:48:59 6928 [Note] InnoDB: Database was not shutdown normally!
+2014-01-21 15:48:59 6928 [Note] InnoDB: Starting crash recovery.
+2014-01-21 15:48:59 6928 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-01-21 15:49:00 6928 [Note] InnoDB: Restoring possible half-written data pages 
+2014-01-21 15:49:00 6928 [Note] InnoDB: from the doublewrite buffer...
+2014-01-21 15:49:01 6928 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-01-21 15:49:01 6928 [Note] InnoDB: Waiting for purge to start
+2014-01-21 15:49:01 6928 [Note] InnoDB: 5.6.15 started; log sequence number 1626144
+2014-01-21 15:49:01 6928 [Note] Recovering after a crash using mysql-bin
+2014-01-21 15:49:01 6928 [Note] Starting crash recovery...
+2014-01-21 15:49:01 6928 [Note] Crash recovery finished.
+2014-01-21 15:49:01 6928 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2014-01-21 15:49:01 6928 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2014-01-21 15:49:01 6928 [Note] Server socket created on IP: '127.0.0.1'.
+2014-01-21 15:49:03 6928 [Note] Event Scheduler: Loaded 0 events
+2014-01-21 15:49:03 6928 [Note] C:\PROGRA~2\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
+Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-01-26 20:57:56 10724 [Note] Plugin 'FEDERATED' is disabled.
+2014-01-26 20:57:56 10724 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-01-26 20:57:56 10724 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-01-26 20:57:56 10724 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-01-26 20:57:56 10724 [Note] InnoDB: Not using CPU crc32 instructions
+2014-01-26 20:57:56 10724 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2014-01-26 20:57:56 10724 [Note] InnoDB: Completed initialization of buffer pool
+2014-01-26 20:57:56 10724 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-01-26 20:57:56 10724 [Note] InnoDB: The log sequence numbers 1625977 and 1625977 in ibdata files do not match the log sequence number 1626154 in the ib_logfiles!
+2014-01-26 20:57:56 10724 [Note] InnoDB: Database was not shutdown normally!
+2014-01-26 20:57:56 10724 [Note] InnoDB: Starting crash recovery.
+2014-01-26 20:57:56 10724 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-01-26 20:57:56 10724 [Note] InnoDB: Restoring possible half-written data pages 
+2014-01-26 20:57:56 10724 [Note] InnoDB: from the doublewrite buffer...
+2014-01-26 20:57:57 10724 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-01-26 20:57:57 10724 [Note] InnoDB: Waiting for purge to start
+2014-01-26 20:57:57 10724 [Note] InnoDB: 5.6.15 started; log sequence number 1626154
+2014-01-26 20:57:57 10724 [Note] Recovering after a crash using mysql-bin
+2014-01-26 20:57:57 10724 [Note] Starting crash recovery...
+2014-01-26 20:57:57 10724 [Note] Crash recovery finished.
+2014-01-26 20:57:58 10724 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2014-01-26 20:57:58 10724 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2014-01-26 20:57:58 10724 [Note] Server socket created on IP: '127.0.0.1'.
+2014-01-26 20:58:00 10724 [Note] Event Scheduler: Loaded 0 events
+2014-01-26 20:58:00 10724 [Note] C:\PROGRA~2\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
+Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)

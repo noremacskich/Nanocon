@@ -1,33 +1,23 @@
-Created VIP Page, added images.
-
-Created:
-1	vip.php
-2	vip.php : newvip()
-3	imgs
-4	imgs/vip
-5	imgs/vip/1.jpg
-6	imgs/vip/2.jpg
-7	imgs/vip/3.jpg
-8	imgs/vip/4.png
-
-Reasons:
-1	This will hold all information regarding our guest speakers.
-2	This will create a new VIP tile
-3	This is where all the images go
-4	This is where all VIP portriats go
-5-8	Since I have to play around with pictures, why not use my cats from home?
+Added Database for VIP
 
 Modified:
-1	core.css
-2	DocumentationStyle.txt
-3	navigation.php
+1	newvip( . . . )
+2	readme.txt
 
 Reasons:
-1	To give the vip page styling.
-2	Updated the function style, now includes how to handle formatted strings,
-	more specifically the F (format) and E (example) tags
-3	Added the VIP page to the list.  It replace "Option2"
+1	To reduce the number of parameters
+2	Updated it to include setting up the database.
 
-Notes:
-	I should have disabled the history refactorings for this project. 
-	Need to find a way to reduce image size based on connection type.
+Created:
+1	Database for VIP
+2	new user for database
+3	database.php
+4	/Database/Data/*
+
+Reasons:
+1	Need a place to store VIP information.
+2	Need way to get to database: user name and password are admin
+3	Will store all database functions and information.
+4	This directory holds all files related to the database.  To connect up, 
+	follow the instructions in the readme.
+
