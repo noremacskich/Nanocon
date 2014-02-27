@@ -25,7 +25,7 @@ function newvip($vipID, $presID){
 	echo '	<div class="ui-body ui-body-a">';
 	echo '		<img class="vipimage" src="' . $vipInfo["img"] . '" alt="' . $vipInfo["name"] . '" />';
 	echo '		<div class="bio">';
-	echo '			<div class="Presentation" data-role="collapsible">';
+	echo '			<div data-role="collapsible">';
 	echo '				<h2>Presentation Info</h2>';
 	echo '				<div class="timeplace">';
 	echo '					<div class="pres_time">' . $presInfo["time"] . '</div>';

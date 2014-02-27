@@ -1,9 +1,7 @@
 Official commit style
 ------------------------
 ------------------------
-
-##/##/####
-##:## ?m ------------------------
+Brief overview of what you did here.  Keep it short.
 
 Created:
 1	path/to/file.ext
@@ -71,8 +69,6 @@ Other:
 
 Notes:
 	State anything else here.		
-
-##:## ?m ------------------------
 
 ------------------------
 ------------------------

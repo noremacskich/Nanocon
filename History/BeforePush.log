@@ -1,24 +1,9 @@
-Added Database for VIP - Polished Version
+Readme Update
 
 Modified:
-1	newvip( . . . ) -> newvip($vipID, $presID)
-2	readme.txt
+1	readme.txt
+2	DocumentationStyle.txt
 
 Reasons:
-1	Reduced the number of parameters from 7 to 2.
-2	Updated it to include setting up the database.  Need to verify that I 
-	included all the steps needed to setup the database.
-
-Created:
-1	Database for VIP
-2	new user for database
-3	database.php
-4	/Database/Data/*
-
-Reasons:
-1	Need a place to store VIP information.
-2	Need way to get to database: user name and password are admin
-3	Will store all database functions and information.
-4	This directory holds all files related to the database.  To connect up, 
-	follow the instructions in the readme.
-
+1	Updated it to look good on github, using Markdown syntax.
+2	Updated to match current documentation style.
