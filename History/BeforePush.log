@@ -1,9 +1,11 @@
 Readme Update
 
 Modified:
-1	readme.txt
-2	DocumentationStyle.txt
+1	navigation.php
+2	readme.txt
 
 Reasons:
-1	Updated it to look good on github, using Markdown syntax.
-2	Updated to match current documentation style.
+1	removed the ui-responsive-panel from the navigation panel.  Decided to 
+	stick with the mobile theme for now.
+2	This time, this should be github complient, since they use a slightly 
+	different version of markdown text.

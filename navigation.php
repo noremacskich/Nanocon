@@ -27,7 +27,7 @@
 <!-- This is the new navigation Bar.  When the display is small, we will 
 	hide it, but when showing on monitor, it should show.  It will need 
 	to be put after the footer in order to work. -->
-<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="nav-panel" class="ui-responsive-panel">
+<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="nav-panel">
 	<div data-role="collapsible-set">
 			<ul data-role="listview">
 			<?php
