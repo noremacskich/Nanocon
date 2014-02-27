@@ -1,34 +1,33 @@
-## Intro
+### Intro
 Repository Link to Charles Ruby on Rails Nanocon Website:
   https://github.com/charles1024/Nanocon
 
-## Downloads
-### [Github](https://help.github.com/articles/set-up-git)
+### Downloads
+#### [Github](https://help.github.com/articles/set-up-git)
 
     A cross platform versioning system with easy to use interface.  
 
-### [Aptana Studio 3](http://aptana.org/)
+#### [Aptana Studio 3](http://aptana.org/)
 
     Just a free IDE that is geared towards website developement.
 
-### [EasyPHP DevServer]( http://www.easyphp.org/easyphp-devserver.php)
+#### [EasyPHP DevServer]( http://www.easyphp.org/easyphp-devserver.php)
 
     This allows easy setup of a php server with an mysql database for windows.
 
-## Installing
-### Github
+### Installing
+#### Github
 * Should be a typical next, next, done installer.
 * You need a github account in order to make commits to the branch
 
-### Aptana Studio 3
+#### Aptana Studio 3
 * Next, Next Done . . .
 
-### EasyPHP DevServer
+#### EasyPHP DevServer
 * Once again, next, next, done sort of installer
  * If you change the default directory, be sure to take note of it, you will need it later
 * Once installed, you should have a new icon in your system tray with a dark 'E' on it, with with either a red or green box to the lower right.  If not, go and start up the program.
 
-## Configuring Everything
 ### EasyPHP DevServer
 ####Server
 
@@ -75,17 +74,17 @@ Repository Link to Charles Ruby on Rails Nanocon Website:
 
 6. If you do, then you are done setting up the database.
 
- ### Github
-  * Should prompt you to enter your user credentials.
+#### Github
+ * Should prompt you to enter your user credentials.
 
- ### Aptana Studio 3
-  * Set your default workspace to the directory that you put the nanocon website at.
+#### Aptana Studio 3
+ * Set your default workspace to the directory that you put the nanocon website at.
 
-## Reference Articles
+### Reference Articles
 [Getting Started With jQuery Mobile](http://mobile.smashingmagazine.com/2013/03/31/getting-started-jquery-mobile/)
   * This is a great intro to jQuery Mobile, which this site uses heavily.
 
-## File Info
+### File Info
 * History/BeforePush.log
  * This is where you document everything that you have done until you commit.  It should follow the Documentation Style provided in the DocumentationStyle text file.  Your commit comment should be identical to what is in this file.  Be sure to save this file before you commit.  After you commit, you can erase the contents of this file.
 * DocumentationStyle.txt
