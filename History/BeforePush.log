@@ -1,11 +1,7 @@
-Readme Update
+Readme Update Again
 
-Modified:
-1	navigation.php
-2	readme.txt
+Renamed:
+1	readme.txt -> readme.md
 
 Reasons:
-1	removed the ui-responsive-panel from the navigation panel.  Decided to 
-	stick with the mobile theme for now.
-2	This time, this should be github complient, since they use a slightly 
-	different version of markdown text.
+1	Hopefully this time github will process the markdown.
