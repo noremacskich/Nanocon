@@ -83,9 +83,19 @@ Repository Link to Charles Ruby on Rails Nanocon Website:
 ### Reference Articles
 [Getting Started With jQuery Mobile](http://mobile.smashingmagazine.com/2013/03/31/getting-started-jquery-mobile/)
   * This is a great intro to jQuery Mobile, which this site uses heavily.
+[PHP the Right Way](http://www.phptherightway.com/)
+  * This website has great stuff on best practices when it comes to php.  It is also a good place to get the basic lowdown on the php language.  It is highly recommend that you at least peruse through a couple of the pages.
 
 ### File Info
-* History/BeforePush.log
- * This is where you document everything that you have done until you commit.  It should follow the Documentation Style provided in the DocumentationStyle text file.  Your commit comment should be identical to what is in this file.  Be sure to save this file before you commit.  After you commit, you can erase the contents of this file.
-* DocumentationStyle.txt
- * This is how you should be documenting both the commits and every new function you make.
+* commit.git
+ * This is where you document everything that you have done until you commit.  It should follow the Documentation Style discussed below.  
+ * Your commit comment should be identical to what is in this file.
+ * Be sure to save this file before you commit.  After you commit, you can erase the contents of this file.
+ 
+### Commit and Documentation Style
+[Function Documentation Style](https://github.com/noremacskich/CodeDocumentation/blob/master/short_function_notes.txt)
+  * This is a personal documentation style that I have been using to create this website.  As such, it should continue to be used to maintain consistency on the website.
+[Github Commit Style](https://github.com/noremacskich/CodeDocumentation/blob/master/commit_notes.txt)
+  * This is the commit styling that I have been using.  Once again, it should continue to be used to maintain consistency for this project.
+
+

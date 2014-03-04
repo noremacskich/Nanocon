@@ -1,6 +1,6 @@
 <?php
 
-/**@function newvip()
+/**@fun newvip()
  * 	^	This will create a VIP tile for the vip page
  * 
  * @param $vipID | Integer
@@ -20,27 +20,29 @@ function newvip($vipID, $presID){
 	// The vipInfo and presInfo arrays come from this file
 	include 'database.php';
 	
-	echo '<div class="vip ui-corner-all custom-corners">';
-	echo '	<h1 class="ui-bar ui-bar-a">' . $vipInfo["name"] . '</h1>';
-	echo '	<div class="ui-body ui-body-a">';
-	echo '		<img class="vipimage" src="' . $vipInfo["img"] . '" alt="' . $vipInfo["name"] . '" />';
-	echo '		<div class="bio">';
-	echo '			<div data-role="collapsible">';
-	echo '				<h2>Presentation Info</h2>';
-	echo '				<div class="timeplace">';
-	echo '					<div class="pres_time">' . $presInfo["time"] . '</div>';
-	echo '					<div class="pres_location">' . $presInfo["location"] . '</div>';
-	echo '				</div>';
-	echo '				<h2>' . $presInfo["title"] . '</h2>';
-	echo '				<p>' . $presInfo["description"] . '</p>';
-	echo '			</div>';
-	echo '			<div class="about" data-role="collapsible">';
-	echo '				<h2>About the VIP</h2>';
-	echo '				' . $vipInfo["about"] . '';
-	echo '			</div>';
-	echo '		</div>';
-	echo '	</div>';
-	echo '</div>';
+	echo <<<EOD
+<div class="vip ui-corner-all custom-corners">
+	<h1 class="ui-bar ui-bar-a">{$vipInfo["name"]}</h1>
+	<div class="ui-body ui-body-a">
+		<img class="vipimage" src="{$vipInfo["img"]}" alt="{$vipInfo["name"]}" />
+		<div class="bio">
+			<div data-role="collapsible">
+				<h2>Presentation Info</h2>
+				<div class="timeplace">
+					<div class="pres_time">{$presInfo["time"]}</div>
+					<div class="pres_location">{$presInfo["location"]}</div>
+				</div>
+				<h2>{$presInfo["title"]}</h2>
+				<p>{$presInfo["description"]}</p>
+			</div>
+			<div class="about" data-role="collapsible">
+				<h2>About the VIP</h2>
+				<p>{$vipInfo["about"]}</p>
+			</div>
+		</div>
+	</div>
+</div>
+EOD;
 }
 
 
