@@ -1,37 +1,8 @@
-Documentation Update
+Documentation Tweak
 
 Modified:
 1	readme.md
-2	vip.php : newvip($vipID, $presID)
 
 Reasons:
-1	It worked! Now fine tuning the look.  Also added a new reference website 
-	for PHP the Right Way, and added section on the commit and function 
-	documentation styling.
-2	Removed all the echos, and went and used heredoc syntax, which makes it look 
-	much cleaner.
-	
---------------
-
-Moved:
-1	History/BeforePush.log -> /BeforePush.log
-
-Reason:
-1	Going to keep this in the root directory, for easy access.
-
---------------
-
-Renamed:
-1	BeforePush.log -> commit.git
-
-Reason:
-1	This is a personal convention that I have been using, just now applying it
-	to this website.
-	
---------------
-
-Removed:
-1	/History
-
-Reasons:
-1	We no longer need it.
+1	The PHP the Right Way and the Github Commit Style did not go on the next 
+	line, so went and fixed it.
