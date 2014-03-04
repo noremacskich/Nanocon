@@ -1,8 +1,23 @@
-Documentation Tweak
+Database Connection Update
 
-Modified:
-1	readme.md
+Added:
+1	database.php : getVIPInfo($vipID)
+2	database.php : getPresInfo($ID)
+3	database.php : connectDatabase()
 
 Reasons:
-1	The PHP the Right Way and the Github Commit Style did not go on the next 
-	line, so went and fixed it.
+1-2	This will simplify getting the vip or presentation information.
+3	This function will open up the database and return a connection.
+
+--------------
+
+Modified:
+1	database.php
+2	vip.php : newvip($vipID, $presID)
+
+Reasons:
+1	Basically rewrote the file, added two functions, plan on adding security
+	later.
+2	Removed the include statement, and put it at the top of file.  Also, 
+	getting the display information is now in 2 functions.
+	

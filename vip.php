@@ -1,5 +1,9 @@
 <?php
 
+// The vipInfo and presInfo arrays come from this file
+include 'database.php';
+	
+	
 /**@fun newvip()
  * 	^	This will create a VIP tile for the vip page
  * 
@@ -10,15 +14,21 @@
  * 	^	This presID will get all information regard the Presentation the 
  * 	^	VIP is giving.
  * 
- * @todo Noremacskich
+ * @todo Noremacskich 2014-3-4
  * 	^	Need to allow multiple Presentations for one VIP
+ * 
+ * @note NoremacSkich 2014-3-4
+ *	^	If the vip or the presentation ID doesn't have data associated with
+ * 		it, the containers are still displayed.
  * 
  */
  
 function newvip($vipID, $presID){
 	
-	// The vipInfo and presInfo arrays come from this file
-	include 'database.php';
+	// Grab the vip info
+	$vipInfo = getVIPInfo($vipID);
+	// and grab the presentation info.
+	$presInfo = getPresInfo($presID);
 	
 	echo <<<EOD
 <div class="vip ui-corner-all custom-corners">
