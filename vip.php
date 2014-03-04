@@ -34,7 +34,7 @@ function newvip($vipID, $presID){
 <div class="vip ui-corner-all custom-corners">
 	<h1 class="ui-bar ui-bar-a">{$vipInfo["name"]}</h1>
 	<div class="ui-body ui-body-a">
-		<img class="vipimage" src="{$vipInfo["img"]}" alt="{$vipInfo["name"]}" />
+		<img class="vipimage" src="{$vipInfo["profileImage"]}" alt="{$vipInfo["name"]}" />
 		<div class="bio">
 			<div data-role="collapsible">
 				<h2>Presentation Info</h2>

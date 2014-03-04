@@ -1,23 +1,7 @@
-Database Connection Update
-
-Added:
-1	database.php : getVIPInfo($vipID)
-2	database.php : getPresInfo($ID)
-3	database.php : connectDatabase()
-
-Reasons:
-1-2	This will simplify getting the vip or presentation information.
-3	This function will open up the database and return a connection.
-
---------------
+Database Connection - Quick Tweak
 
 Modified:
-1	database.php
-2	vip.php : newvip($vipID, $presID)
+1	vip.php : newvip($vipID, $presID)
 
 Reasons:
-1	Basically rewrote the file, added two functions, plan on adding security
-	later.
-2	Removed the include statement, and put it at the top of file.  Also, 
-	getting the display information is now in 2 functions.
-	
+1	Forgot to update the profile image.
