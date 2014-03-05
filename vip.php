@@ -1,11 +1,13 @@
 <?php
 
-// The vipInfo and presInfo arrays come from this file
-include 'database.php';
-	
+require 'htmlchunks.php'; // This will hold basic functions that will create simple html
+include 'database.php'; // The vipInfo and presInfo arrays come from this file
+
 	
 /**@fun newvip()
  * 	^	This will create a VIP tile for the vip page
+ * 
+ * @author NoremacSkich | YYYY-MM-DD
  * 
  * @param $vipID | Integer
  * 	^	The vipID will get all information regarding the VIP
@@ -14,7 +16,7 @@ include 'database.php';
  * 	^	This presID will get all information regard the Presentation the 
  * 	^	VIP is giving.
  * 
- * @todo Noremacskich 2014-3-4
+ * @todo NoremacSkich 2014-3-4
  * 	^	Need to allow multiple Presentations for one VIP
  * 
  * @note NoremacSkich 2014-3-4
@@ -57,11 +59,6 @@ EOD;
 
 
 
-?>
-
-<?php
-	// require 'path/to/file'; is very similar to an include in C/C++
-	require '/htmlchunks.php'; // This will hold basic functions that will create simple html
 ?>
 
 <!DOCTYPE html> 

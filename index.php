@@ -1,15 +1,12 @@
 <?php
-	// require 'path/to/file'; is very similar to an include in C/C++
 	require '/htmlchunks.php'; // This will hold basic functions that will create simple html
 ?>
 <!DOCTYPE html> 
 	<html>
 		<head>
 			<title>Nanocon</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-
-				<?php basicHeader() ?>
-				<!-- Needed for Jquery Mobile Library -->
+			
+			<?php basicHeader() ?>
 				
 		</head>
 		<body>

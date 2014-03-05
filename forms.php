@@ -1,8 +1,10 @@
 <?php
-	/**@function newTextArea($id, $Label, $innerText='')
+	/**@fun newTextArea($id, $Label, $innerText='')
 	 * 	^ This will create a new text area
 	 * 
-	 * @requires jQueryUI
+	 * @author NoremacSkich | YYYY-MM-DD
+	 * 
+	 * @requires jQuery Mobile
 	 *
 	 * @param $id | String
 	 * 	^ This is the unique identifier for this text box
@@ -20,9 +22,11 @@
 		 echo '<textarea name="' . $id . '" id="' . $id . '">' . $innerText . '</textarea>';
 	 }
 	
-	/**@function newText($id, $Label, $attributes='')
+	/**@fun newText($id, $Label, $attributes='')
 	 * 
-	 * @require jQueryUI
+	 * @author NoremacSkich | YYYY-MM-DD
+	 * 
+	 * @requires jQuery Mobile
 	 * 
 	 * @param $id | String
 	 * 	^	This is the id for the text box
@@ -41,11 +45,13 @@
 		echo '</fieldset>';
 	}
 	
-	/**@function newDropDown($id, $Label, $DropdownList)
+	/**@fun newDropDown($id, $Label, $DropdownList)
 	 * 	^	This function will create a dropdown list with the
 	 * 	^	given array in $DropdownList
 	 * 
-	 * @require jQuery Mobile
+	 * @author NoremacSkich | YYYY-MM-DD
+	 * 
+	 * @requires jQuery Mobile
 	 * 
 	 * @param $id | unique String
 	 * 	^	This is the id for the selectbox
@@ -78,10 +84,12 @@
 		
 	}
 	
-	/**@function Button($text='Button', $link='#', $Icon='')
+	/**@fun Button($text='Button', $link='#', $Icon='')
 	 * 	^	This will create a new button
 	 * 
-	 * @requires JqueryUI
+	 * @author NoremacSkich | YYYY-MM-DD
+	 * 
+	 * @requires jQuery Mobile
 	 * 
 	 * @param $txt | String | Optional
 	 * 	^	This is what the button will say
@@ -95,12 +103,11 @@
 	 * 	^	If you want an Icon, you put it here
 	 * 	D	""
 	 * 
-	 * @note NoremacSkich
+	 * @note NoremacSkich | YYYY-MM-DD
 	 * 	^	The link needs http:// in order to function correctly
 	 * 
 	 */
-    function Button($text='Button', $link='#', $Icon=''){		
-		// Now spit it out to the website
+    function Button($text='Button', $link='#', $Icon=''){
 	    echo '<a href="' . $link . '" data-role="button" '. $Icon . '>' . $text . '</a>';
 	}
 ?>

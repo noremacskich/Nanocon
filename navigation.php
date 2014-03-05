@@ -1,7 +1,9 @@
 <?php
 
-	/** @function newPage($href, $label)
+	/** @fun newPageLink($href, $label)
 	 * 	^	This function will quickly create a new list item
+	 * 
+	 * @author NoremacSkich | YYYY-MM-DD
 	 * 
 	 * @param $href | Path
 	 * 	^	This is the path to the page you are trying to open
@@ -14,12 +16,12 @@
 	 * 	^	this page link.
 	 * 	D	''
 	 * 
-	 * @todo NoremacSkich
+	 * @todo NoremacSkich | YYYY-MM-DD
 	 * 	^	Need to prevent the link to the current page from being shown.
 	 * 	^	Should probably use an if statement.
 	 */
 	function newPageLink($href, $label, $attributes=''){
-		echo '		<li><a href="' . $href . '" ' . $attributes . ' >' . $label . '</a></li>';
+		echo '<li><a href="' . $href . '" ' . $attributes . ' >' . $label . '</a></li>';
 
 	}
 

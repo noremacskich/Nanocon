@@ -1,36 +1,28 @@
-Form and Header Update
-
-Moved:
-1	events.php : 
-		Button($text, $link, $icon)
-		newDropDown($id, $label, $DropdownList)
-		newText($id, $Label, $attributes='')
-		newTextArea($id, $Label, $innerText='')
-	=> forms.php
-	
-Reasons:
-1	This was done to seperate out the form functions from the forms themselves.
-	
---------------
-
-Created:
-1	forms.php
-2	htmlchunks.php : basicHeader()
-
-Reasons:
-1	This will hold all the functions related to a form.
-2	This function must go on each page that has a header, since this will 
-	contain all the style sheets and java script files needed for the overall 
-	theme and functionality of the website.
-
---------------
+Code Cleanup
 
 Modified:
-1	events.php
-2	index.php
-3	vip.php
+1	database.php
+2	events.php
+3	forms.php
+4	htmlchunks.php
+5	index.php
+6	navigation.php
+7	vip.php
 
 Reasons:
-1-3	Updated them to use the basicHeader() function
+1-7	Basically went and updated the documentation, and also cleaned up the code
+	a little bit.
+	
+--------------
 
+Deleted:
+1	DocumentationStyle.txt
 
+Reasons:
+1	I am now referencing the documentation style in the readme.
+
+--------------
+
+Notes:
+1	Will need to go back in commit history and find when I created some of the 
+	functions to get the documentation right.

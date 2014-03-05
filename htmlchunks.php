@@ -4,6 +4,8 @@
 	 * 	^	This will spit out the html required for a simple script file
 	 * 	^	such as a jquery library.
 	 * 
+	 * @author NoremacSkich | YYYY-MM-DD
+	 * 
 	 * @param $Location | File Path <br>
 	 * 	^	This is the path to the script file to be included
 	 * 
@@ -14,6 +16,8 @@
 	
 	/**@function newCss($Location)
 	 * 	^	This will spit out the html required to link a css file to the page
+	 * 
+	 * @author NoremacSkich | YYYY-MM-DD
 	 * 
 	 * @param $Location | File Path <br>
 	 * 	^	This is the path to the css file to be included
@@ -28,6 +32,7 @@
 	 * 		will contain all the style sheets and java script files needed 
 	 * 		for the overall theme and functionality of the website.
 	 * 
+	 * @author NoremacSkich | 2014-3-5
 	 * 
 	 */
 	function basicHeader(){

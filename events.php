@@ -1,11 +1,7 @@
 
 <?php
-	// For now, we need the functions for the forms.
-	require 'forms.php';
-?>
-<?php
-	// require 'path/to/file'; is very similar to an include in C/C++
-	require '/htmlchunks.php'; // This will hold basic functions that will create simple html
+	require 'forms.php'; // For now, we need the functions for the forms.
+	require 'htmlchunks.php'; // This will hold basic functions that will create simple html
 ?>
 <!DOCTYPE html> 
 	<html>
@@ -21,6 +17,11 @@
 					<a href="#nav-panel" data-icon="carat-l" data-iconpos="notext" class="ui-btn-right">Menu</a>
 				</header>
 				<div data-role="content" id="">
+					<?php
+						// Include the navigation bar.
+						include 'navigation.php';
+					?>
+					
 					<form class="userform">
 						<h2>Contact Info</h2>
 						<?php
@@ -106,9 +107,6 @@
 				<footer data-role="footer">
 					<p>Nanocon - 2014</p>
 				</footer>
-				<?php
-					include 'navigation.php';
-				?>
 			</div>
 		</body>
 	</html>
