@@ -1,28 +1,19 @@
-Code Cleanup
+eventInfoDB & setBasicInfo stub
 
-Modified:
-1	database.php
-2	events.php
-3	forms.php
-4	htmlchunks.php
-5	index.php
-6	navigation.php
-7	vip.php
+Created:
+1	eventinfo database
+2	eventinfo : BasicInfo
+3	database.php : setBasicInfo($basicInfo)
 
 Reasons:
-1-7	Basically went and updated the documentation, and also cleaned up the code
-	a little bit.
-	
---------------
-
-Deleted:
-1	DocumentationStyle.txt
-
-Reasons:
-1	I am now referencing the documentation style in the readme.
+1	This database will hold all data related to events.
+2	This table will hold the basic info fields such as names, addresses, emails,
+	and phone numbers
+3	This will put the basic information into the database.  It will not check 
+	for formatting of the string, but it will do a security check on the 
+	parameters before it inserts them into the database.
 
 --------------
 
 Notes:
-1	Will need to go back in commit history and find when I created some of the 
-	functions to get the documentation right.
+1	Will probably have to rethink how I am going to do the database connections.
